@@ -48,7 +48,9 @@ All you need to do in order to make your JAR jacli-ready is to put
 [`META-INF`](https://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html#The_META-INF_directory)
 directory and
 [release it](https://www.yegor256.com/2014/08/19/how-to-release-to-maven-central.html)
-to [Maven Central](https://mvnrepository.com/repos/central):
+to [Maven Central](https://mvnrepository.com/repos/central)
+(the [pom.xml](https://maven.apache.org/pom.html)
+accompanying your JAR will be used to download dependencies):
 
 ```ini
 binary=foo
