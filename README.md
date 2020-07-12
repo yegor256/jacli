@@ -25,11 +25,12 @@ Besides, you have to make sure they have the right version of
 the [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) installed.
 It's a hassle.
 
-Instead, you use jacli and let your users do this (say, you are no MacOS):
+Instead, you use jacli and let your users do this (say, you are no MacOS
+and `org.cqfn:foo` are the coordinates of the JAR in Maven Central):
 
 ```bash
 $ brew install jacli
-$ jacli install foo
+$ jacli install org.cqfn:foo
 $ foo
 ```
 
@@ -40,5 +41,16 @@ to run this single JAR smoothly.
 
 Jacli uses [Maven](https://maven.apache.org/) under the hood
 and respects your [`settings.xml`](https://maven.apache.org/settings.html).
+
+All you need to do in order to make your JAR jacli-ready is to put
+`jacli.properties` into its
+[`META-INF`](https://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html#The_META-INF_directory)
+directory:
+
+```ini
+binary=foo
+jvm.min=8
+jvm.max=13
+```
 
 The logo is made by [Freepik](https://www.freepik.com).
