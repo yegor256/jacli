@@ -26,12 +26,12 @@ the [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) installed.
 It's a hassle.
 
 Instead, you use jacli and let your users do this (say, you are no MacOS
-and `org.cqfn:foo` are the coordinates of the JAR in
+and `org.cqfn:foo:1.0.4` are the coordinates of the JAR in
 [Maven Central](https://mvnrepository.com/repos/central)):
 
 ```bash
 $ brew install jacli
-$ jacli install org.cqfn:foo
+$ jacli install org.cqfn:foo:1.0.4
 $ foo
 ```
 
