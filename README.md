@@ -1,7 +1,7 @@
 <img src="/logo.svg" width="92px"/>
 
-Jacli is command-line-focused package manager for Java. It is very
-similar to
+Jacli is command-line-focused package manager,
+very similar to
 [Npm](https://www.npmjs.com/),
 [Rubygems](https://github.com/rubygems/rubygems),
 [Pip](https://pypi.org/project/pip/),
