@@ -1,3 +1,5 @@
+<img src="/logo.svg" width="92px"/>
+
 Jacli is command-line-focused package manager for Java. It is very
 similar to
 [Npm](https://www.npmjs.com/),
