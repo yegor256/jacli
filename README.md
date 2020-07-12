@@ -2,7 +2,9 @@ Jacli is command-line-focused package manager for Java. It is very
 similar to
 [Npm](https://www.npmjs.com/),
 [Rubygems](https://github.com/rubygems/rubygems),
-[Pip](https://pypi.org/project/pip/), and others.
+[Pip](https://pypi.org/project/pip/),
+[Homebrew](https://brew.sh/),
+but for Java.
 Say, you have a
 [JAR](https://en.wikipedia.org/wiki/JAR_%28file_format%29),
 which is supposed to be run like this:
