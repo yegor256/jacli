@@ -21,6 +21,7 @@ or instruct them to download all dependencies and make them
 [available](https://stackoverflow.com/questions/34286407/gradle-what-is-the-difference-between-classpath-and-compile-dependencies)
 on the
 [classpath](https://en.wikipedia.org/wiki/Classpath).
+In either case, they have to download binaries manually, for example with `wget`.
 Besides, you have to make sure they have the right version of
 the [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) installed.
 It's a hassle.
