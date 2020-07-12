@@ -39,3 +39,5 @@ hook at `/usr/local/bin/` and so on. It does everything you need in order
 to run this single JAR smoothly.
 
 Jacli uses [Maven](https://maven.apache.org/) under the hood.
+
+The logo is made by [Freepik](https://www.freepik.com).
