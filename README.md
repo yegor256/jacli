@@ -49,7 +49,7 @@ All you need to do in order to make your JAR jacli-ready is to put
 directory and
 [release it](https://www.yegor256.com/2014/08/19/how-to-release-to-maven-central.html)
 to [Maven Central](https://mvnrepository.com/repos/central)
-(the [pom.xml](https://maven.apache.org/pom.html)
+(the [`pom.xml`](https://maven.apache.org/pom.html)
 accompanying your JAR will be used to download dependencies):
 
 ```ini
