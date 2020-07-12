@@ -23,9 +23,10 @@ Besides, you have to make sure they have the right version of
 the [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) installed.
 It's a hassle.
 
-Instead, you use jacli and let your users do this:
+Instead, you use jacli and let your users do this (say, you are no MacOS):
 
 ```bash
+$ brew install jacli
 $ jacli install foo
 $ foo
 ```
@@ -34,3 +35,5 @@ You can also do `uninstall`, `list`, `check`, and so on. Jacli is checking
 the JVM for you, downloading all dependencies, creating the command line
 hook at `/usr/local/bin/` and so on. It does everything you need in order
 to run this single JAR smoothly.
+
+Jacli uses [Maven](https://maven.apache.org/) under the hood.
