@@ -45,7 +45,7 @@ and respects your [`settings.xml`](https://maven.apache.org/settings.html).
 All you need to do in order to make your JAR jacli-ready is to put
 `jacli.properties` into its
 [`META-INF`](https://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html#The_META-INF_directory)
-directory:
+directory and release it to [Maven Central](https://mvnrepository.com/repos/central):
 
 ```ini
 binary=foo
