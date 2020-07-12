@@ -38,6 +38,7 @@ the JVM for you, downloading all dependencies, creating the command line
 hook at `/usr/local/bin/` and so on. It does everything you need in order
 to run this single JAR smoothly.
 
-Jacli uses [Maven](https://maven.apache.org/) under the hood.
+Jacli uses [Maven](https://maven.apache.org/) under the hood
+and respects your [`settings.xml`](https://maven.apache.org/settings.html).
 
 The logo is made by [Freepik](https://www.freepik.com).
