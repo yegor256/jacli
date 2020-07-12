@@ -30,4 +30,7 @@ $ jacli install foo
 $ foo
 ```
 
-That's it.
+You can also do `uninstall`, `list`, `check`, and so on. Jacli is checking
+the JVM for you, downloading all dependencies, creating the command line
+hook at `/usr/local/bin/` and so on. It does everything you need in order
+to run this single JAR smoothly.
