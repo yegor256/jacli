@@ -1,4 +1,4 @@
-Jacli is a installer of Java packages on command line. It is very
+Jacli is command-line-focused package manager for Java. It is very
 similar to
 [Npm](https://www.npmjs.com/),
 [Rubygems](https://github.com/rubygems/rubygems),
