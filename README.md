@@ -59,4 +59,6 @@ jvm.min=8
 jvm.max=13
 ```
 
+BTW, we are aware of [Coursier](https://github.com/coursier).
+
 The logo is made by [Freepik](https://www.freepik.com).
